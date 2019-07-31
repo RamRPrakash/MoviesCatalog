@@ -3,16 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import Card from '@material-ui/core/Card';
 // import Mainpage from './Main/Mainpage'  
-import Welcomepage from './Pages/welcomepage/view/Welcomepage' 
+import Welcomepage from './Pages/welcomepage/view/Welcomepage'
 import Signin from './Pages/signin/view/Signin'
-import Signup from './Pages/signup/view/Signup' 
+import Signup from './Pages/signup/view/Signup'
 import Movie from './Pages/movie/view/Movie'
 function App() {
   return (
     <div className="App">
-    <div>
-    
-      </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -27,13 +24,7 @@ function App() {
           Learn React
         </a>
       </header> */}
-    <div>
-        <Card className={"card"}>
-        {/* <Welcomepage/>  */}
-          {/* <Signin /> */}
-          <Movie/> 
-        </Card> 
-    </div>
+      <Movie />
     </div>
   );
 }
